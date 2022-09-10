@@ -25,6 +25,8 @@ body {
     padding: 0 20px;
 
     margin: 0 auto;
+
+    
 }
 
 .left {
@@ -43,8 +45,9 @@ details {
 }
 
 details[open] {
-    margin-top: 65px;
+    margin-top: 70px;
     position: relative;
+
 }
 
 .left summary {
@@ -64,6 +67,11 @@ details a {
 
     padding: 8px 16px;
     background: #fff;
+    
+}
+details .content {
+    margin-top: 5px;
+    box-shadow: 0px 0px 0px 1px hsla(0, 0%, 0%, 0.116);
 }
 
 
@@ -122,3 +130,8 @@ details a {
     margin-left: 22px;
 }
 
+
+hr {
+    height: 0.1px;
+    color: hsla(0, 0%, 0%, 0.199);
+}
